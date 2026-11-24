@@ -1,2 +1,6 @@
-# GPS-Unlocked
-An interactive animated film explaining how GPS works
+# GPS Unlocked — interactive science film
+Open index.html or publish these files on GitHub Pages (Settings → Pages → main → /root). No external dependencies. Press Play for a two-minute animated story; optional browser text-to-speech narrates each chapter. Use the chapter buttons, satellite slider, delay slider and click/tap to experiment; changing inputs pauses playback. Captions provide the full explanation without audio.
+
+The model uses one canvas unit per metre, idealized 2D satellite locations, and c = 0.299792458 m/ns. It generates range measurements, introduces an optional delay on satellite 1, computes two-circle intersections, and solves three squared range equations by subtraction and a 2×2 linear system. With inconsistent ranges the result is an algebraic estimate, not a production GPS least-squares solution. Real GPS uses satellite positions in 3D and estimates receiver clock bias, normally with four or more signals. The animation is schematic, not to scale for orbital GPS. Narration depends on browser speech support; captions always work. No location data is collected.
+
+Team: customize the interface and explanations, test independently, and understand the algorithm before submission. Check event rules on AI-assisted development.
