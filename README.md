@@ -15,3 +15,6 @@ This revision was generated with ChatGPT assistance. The team should document it
 
 ## Guided film (V3)
 Six chapters, 96 seconds total, with optional browser speech synthesis, chapter navigation, pause and seek. The diagrams are generated from the same range and position algorithms as the discovery lab. The delay slider changes computed ranges and estimated position; viewers can jump directly to the lab. Narration availability and timing depend on browser voices. No audio is needed to understand the captions. Authorship disclosure remains in this README rather than the public-facing interface.
+
+## V4 design
+Simplified light website layout and navigation; the V3 film, controls and mathematical algorithms are retained. Diagram colours were adjusted for the light background.
