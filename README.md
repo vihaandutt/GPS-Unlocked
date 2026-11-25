@@ -18,3 +18,6 @@ Six chapters, 96 seconds total, with optional browser speech synthesis, chapter 
 
 ## V4 design
 Simplified light website layout and navigation; the V3 film, controls and mathematical algorithms are retained. Diagram colours were adjusted for the light background.
+
+## V5 experiments
+The 3D lab uses fixed illustrative satellite coordinates in metres and estimates x, y, z and optional clock bias with iterative Gauss–Newton normal equations. It does not use the actual receiver position in the estimator. The display compresses satellite distances and magnifies the receiver area, and is not a scale orbital diagram. The city experiment calculates a specular reflection from a vertical wall using the mirror-image construction, adds its path length to the measured range, and compares the estimate with and without that measurement. The city model assumes the reflected signal is tracked instead of the direct signal. No real GPS data or atmospheric corrections are included. V5 was developed with ChatGPT assistance; document actual team contributions and testing accurately.
